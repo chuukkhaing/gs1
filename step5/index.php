@@ -83,6 +83,11 @@ if(!isset($_SESSION['company_code']))
                 </select>
               </div>
               <div class="col mb-2">
+                <div class="price_default_value_only_alrt">
+                  <p class="p-2 m-0 text-danger">
+                    Default Value <strong>can't be change</strong>
+                  </p>
+                </div>
                 <div id="price_retrieve"></div>
               </div>
               <div class="col text-center">

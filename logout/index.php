@@ -1,5 +1,6 @@
 <?php
   session_start();
-  session_destroy();
+  unset($_SESSION['company_code']);
+  unset($_SESSION['ticket_code']);
   header("Location: ../../regs1");
 ?>

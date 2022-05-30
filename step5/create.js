@@ -20,7 +20,7 @@ $(document).ready(function(){
         success:function(data){
           $('#gtins_form')[0].reset();
           if(data == "order created"){
-            alert("Order Created");
+            window.location = "../../regs1/logout";
           }
           if(data == "price wrong"){
             $('.price_default_value_only_alrt').show(1000).hide(5000);

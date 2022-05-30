@@ -19,7 +19,12 @@ $(document).ready(function(){
         },
         success:function(data){
           $('#gtins_form')[0].reset();
-          alert(data);
+          if(data == "order created"){
+            alert("Order Created");
+          }
+          if(data == "price wrong"){
+            $('.price_default_value_only_alrt').show(1000).hide(5000);
+          }
         }
       });
     }

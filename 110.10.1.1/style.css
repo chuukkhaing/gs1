@@ -1,0 +1,33 @@
+/* login */
+.username_required, .password_required, .username_words_limit_over_alrt, .password_words_limit_over_alrt, .wrong_alrt{
+  display: none;
+}
+/* mobile navigation menus */
+.navbar.dashboard{
+  z-index: 2;
+}
+/* sidebar */
+a.dashboard{
+  color: #ffffff;
+  transition: .3s;
+}
+a.dashboard:hover{
+  color: #0D6EFD;
+  transition: .3s;
+}
+/* users */
+.users_username_required, .users_password_required, .users_permission_required, .users_default_value_only, .username_already_take_alrt{
+  display: none;
+}
+/* gtins */
+.quantity_required, .price_required, .member_required, .status_required, .yearly_required, .member_default_value_only, .status_default_value_only{
+  display: none;
+}
+/* company-lists */
+.company_license_image{
+  width:100px;
+  height: 100px;
+}
+.dropdown-menu{
+  min-width: auto;
+}

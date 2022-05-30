@@ -1,0 +1,10 @@
+.logo{
+  width: 100px;
+}
+.dashboard-logo{
+  width: 50px;
+  margin:0px 10px 0px 0px;
+}
+.divider{
+  border-bottom: 5px solid #FF0000;
+}

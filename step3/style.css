@@ -1,0 +1,3 @@
+.first_person_name_required, .first_person_email_required, .first_person_phone_required, .email_for_activate_required, .personal_data_agreement_required, .email_for_activate_default_value_only_alrt{
+  display: none;
+}
